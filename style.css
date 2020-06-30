@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
 .container{
   display:flex;
 }
@@ -25,10 +31,11 @@
     flex: 1;
     display: flex;
     flex-direction: column;
+    height: 100vh;
 }
 header{
   display: flex;
-  height: 60px;
+  height: 65px;
   justify-content: flex-end;
   align-items: center;
   background-color: black;
@@ -37,22 +44,36 @@ header{
 button{
 border: 2px solid white;
 border-radius: 100px;
-min-height: 48px;
+min-height: 40px;
 color: white;
 background-color: black;
 text-transform: uppercase;
 letter-spacing: 1px;
-flex-grow:0.05;
+flex-grow:0.01;
+margin:5px 5px 0 0;
 }
 
 .container-right1{
-  background-color: pink;
   text-align: center;
-  padding-left: 10px;
+  background-color: black;
+  color:grey;
+  height:40px;
 
 }
 .container-right1 li{
   display:inline-block;
   text-transform: uppercase;
   padding-right:10px;
+  margin-top: 5px;
+}
+
+.container-main{
+  background-color: green;
+  height: 100vh;
+}
+
+
+.container-bottom{
+  background-color: lightblue;
+  height: 80px;
 }
