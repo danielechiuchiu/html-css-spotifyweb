@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     letter-spacing: 1px;
+    font-family: "montserrat";
 }
 
 .clearfix {
@@ -74,7 +75,7 @@ aside {
 }
 
 button{
-     border: 2px solid white;
+     border: 5px solid green;
      border-radius: 100px;
      min-height: 60px;
      color: white;
@@ -85,12 +86,18 @@ button{
      cursor: pointer;
      padding: 5px 10px;
      margin-right: 20px;
-     margin-top: 10px;
+     margin-top: 20px;
      font-size: 23px;
+     font-weight: bolder;
 }
 
+button:active{
+  color:green;
+}
 
-
+a:active{
+  color:green!important;
+}
 
  nav .nav-1 a {
     color: white;
@@ -131,7 +138,7 @@ nav .nav-1 small {
 }
 
 .crea-playlist{
-  font-size: 20px;
+  font-size: 17px;
 }
 
 
@@ -149,8 +156,9 @@ nav .nav-1 small {
     width: 80%;
     border-bottom: 1px solid white;
     padding:10px 0;
-    font-size: 27px;
+    font-size: 25px;
     cursor: pointer;
+    color:white;
 }
 
 .profile{
@@ -162,6 +170,7 @@ nav .nav-1 small {
     flex: 0;
     justify-content: center;
     align-items: center;
+    margin-top: 20px;
 }
 
 .principale ul {
@@ -172,33 +181,34 @@ nav .nav-1 small {
     font-size: 21px;
     font-weight: bold;
     text-transform: uppercase;
-    color: white;
     text-decoration: none;
 }
 
 .principale ul a li {
     float: left;
-    padding: 16px;
+    padding: 20px;
     margin-top: 5px;
-    color:white;
-    font-size: 25px;
-    letter-spacing: 3px;
-    text-shadow: 0.5px 0.5px grey;
+    color:black;
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-shadow: 0.1px 0.1px grey;
 }
 
 .principale ul a li:hover {
-    border-bottom: solid 1px black
+    border-bottom: solid 1px black;
+    transform: scale(1.1);
 }
 
 .corpo {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
 }
 
-.corpo h2{
-    margin: 30px 5px;
+.corpo h2:first-child{
+    margin: 35px 5px;
     color: white;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
+    margin-left: 25px;
     font-weight: bold;
     font-size: 30px;
     text-shadow: 0.2px 0.2px grey;
@@ -219,7 +229,7 @@ nav .nav-1 small {
     bottom: 50px;
     left: 0;
     display: none;
-    border-radius: 100px;
+    border-radius: 50%;
 }
 
 .overlay .play-overlay {
@@ -231,7 +241,7 @@ nav .nav-1 small {
 
 .overlay .play-overlay i {
     color: white;
-    font-size: 50px;
+    font-size: 80px;
 }
 
 .song:hover .overlay,
@@ -240,16 +250,13 @@ nav .nav-1 small {
     cursor: pointer;
 }
 
-.overlay:hover .play-overlay i{
-    opacity: 1;
-}
 
 .song {
     width: calc(100% / 6);
 }
 
 .song img {
-    border-radius: 100px;
+    border-radius: 50%;
 }
 
 .album {
@@ -276,6 +283,21 @@ nav .nav-1 small {
     text-shadow: 0.3px 0.3px grey;
 }
 
+.titolo:active{
+  color:green;
+}
+
+.play-overlay i:active{
+  color:green;
+}
+
+.img-album {
+   display: block;
+   width: 100%;
+   height: auto;
+}
+
+
 #quadrati {
     width: 100%;
     height: 100%;
@@ -292,26 +314,35 @@ nav .nav-1 small {
     width: 100px;
 }
 
-.title-song {
+.play-song {
     padding-left: 10px;
     text-transform: capitalize;
     width: 50px;
-    font-size: 25px;
+    font-size: 27px;
 }
 
-.title-song h6:first-child {
+.play-song h6:first-child {
     color: white;
     text-shadow: 0.3px, 0.2px grey;
 }
 
-.title-song h6{
-    color: #787878;
+.play-song h6:first-child:hover{
+  color:green;
+}
+
+.play-song h6{
+  margin-top: 3px;
+    color: lightgrey;
 }
 
 .icone-left {
-    margin-left: 25px;
+    margin-left: 35px;
     color: white;
     font-size: 30px;
+}
+
+.icone-left i:first-child:active{
+  color: green;
 }
 
 .player-center {

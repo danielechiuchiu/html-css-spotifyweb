@@ -22,16 +22,7 @@
     text-align: center;
     line-height: 100px;
 }
-.img-responsive {
-    display: block;
-    width: 100%;
-    height: auto;
-}
-
-.no-radius {
-    border-radius: 0;
-}
-
+ 
 .col-xs-half {height: 50%; line-height: 50px;}
 .col-xs-1 {width: calc((100% / 12) * 1);}
 .col-xs-2 {width: calc((100% / 12) * 2);}
