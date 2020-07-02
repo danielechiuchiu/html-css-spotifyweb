@@ -22,7 +22,7 @@
     text-align: center;
     line-height: 100px;
 }
- 
+
 .col-xs-half {height: 50%; line-height: 50px;}
 .col-xs-1 {width: calc((100% / 12) * 1);}
 .col-xs-2 {width: calc((100% / 12) * 2);}
@@ -37,7 +37,7 @@
 .col-xs-11 {width: calc((100% / 12) * 11);}
 .col-xs-12 {width: calc((100% / 12) * 12);}
 
-/* OFFSET */
+
 .col-xs-offset-0 {margin-left: 0;}
 .col-xs-offset-1 {margin-left: calc((100% / 12) * 1);}
 .col-xs-offset-2 {margin-left: calc((100% / 12) * 2);}
@@ -52,7 +52,7 @@
 .col-xs-offset-11 {margin-left: calc((100% / 12) * 11);}
 .col-xs-offset-12 {margin-left: calc((100% / 12) * 12);}
 
-/* TOP */
+
 .col-xs-offset-top-0 {margin-top: 0;}
 .col-xs-offset-top-1 {margin-top: calc((100% / 12) * 1);}
 .col-xs-offset-top-2 {margin-top: calc((100% / 12) * 2);}
@@ -139,7 +139,7 @@
     .col-lg-offset-10 {margin-left: calc((100% / 12) * 10);}
     .col-lg-offset-11 {margin-left: calc((100% / 12) * 11);}
     .col-lg-offset-12 {margin-left: calc((100% / 12) * 12);}
-    /* TOP */
+    
     .col-lg-offset-top-0 {margin-top: 0;}
     .col-lg-offset-top-1 {margin-top: calc((100% / 12) * 1);}
     .col-lg-offset-top-2 {margin-top: calc((100% / 12) * 2);}
