@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    letter-spacing: 1px;
+    font-family: "montserrat";
 }
 
 .clearfix::after,.row::after {
@@ -168,6 +170,7 @@
  .principale ul a li{
   font-size: 20px;
   text-align: center;
+  margin-left: 10px;
  }
  .titolo{
    font-size: 20px;
@@ -184,5 +187,15 @@
 }
 .player-center{
   flex: 0 0 0px;
+}
+.playlist{
+  display: none;
+}
+.install{
+  margin-top: 470px;
+}
+.nav-1{
+  font-weight: bolder;
+  font-size: 40px;
 }
 }
